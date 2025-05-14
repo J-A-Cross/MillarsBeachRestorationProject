@@ -18,7 +18,7 @@ const Navbar = () => {
         <li><a href="#ecological-report">Ecological Report</a></li>
         <li><a href="#donate">Donate</a></li>
         <li><a href="#our-updates">Our Updates</a></li>
-        <li><a href="#contact-us">Contact Us</a></li>
+        <li><a href="contact">Contact Us</a></li>
         <li><a href="signin">Sign In</a></li>
     </ul>
 </nav>

@@ -9,6 +9,7 @@ const Layout = ({ children }) => {
   // Choose background based on route
   const getBackgroundClass = () => {
     if (location.pathname === '/signin') return 'bg-signin';
+    if (location.pathname === '/contact') return 'bg-contact';
     return 'bg-home';
   };
 
