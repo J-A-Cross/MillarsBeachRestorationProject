@@ -1,0 +1,29 @@
+.posts-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  .updates-heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .load-more-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .load-more-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .load-more-button:hover {
+    background-color: #555;
+  }
+  

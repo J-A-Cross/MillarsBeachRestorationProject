@@ -15,9 +15,9 @@ const Navbar = () => {
         <div className="navbar-menu-icon" onClick={toggleMenu}>☰</div>
     </div>
     <ul className={`navbar-links ${isOpen ? "navbar-links-open" : ""}`}>
-        <li><a href="#ecological-report">Ecological Report</a></li>
-        <li><a href="#donate">Donate</a></li>
-        <li><a href="#our-updates">Our Updates</a></li>
+        <li><a href="ecological">Ecological Report</a></li>
+        <li><a href="donate">Donate</a></li>
+        <li><a href="blog">Our Blog</a></li>
         <li><a href="contact">Contact Us</a></li>
         <li><a href="signin">Sign In</a></li>
     </ul>

@@ -1,78 +1,53 @@
-/* Container for entire component */
-.ecological-container {
+.ecological-page {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    color: white; /* Set text color to white for all content inside this page */
   }
   
-  /* Banner with full-page background */
+  /* Banner section */
   .ecological-banner {
     width: 100%;
-    height: 100vh;
-    background-image: url('/banner.jpg'); /* Place image in /public folder */
     background-size: cover;
     background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-repeat: no-repeat;
+    color: white; /* Ensure text in banner is white */
+    padding: 60px 20px 30px 20px;
     text-align: center;
-    padding: 0 20px;
   }
   
-  /* Optional dark overlay for readability */
   .banner-content {
-    background: rgba(0, 0, 0, 0.5); 
-    padding: 40px;
-    border-radius: 10px;
-    color: white;
     max-width: 800px;
+    margin: 0 auto;
   }
   
-  .banner-header {
-    font-size: 3rem;
+  .banner-content h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
     margin-bottom: 1rem;
+    color: white; /* White color for header text */
   }
   
-  .banner-subheader {
-    font-size: 1.8rem;
-    margin-bottom: 1rem;
-  }
-  
-  .banner-description {
-    font-size: 1.1rem;
+  .banner-content p {
+    font-size: 1rem;
+    color: white; /* White color for paragraph text */
+    max-width: 600px;
+    margin: 0 auto 20px;
     line-height: 1.5;
   }
+
+  /* PDF section */
+  .pdf-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
   
-  /* Responsive iframe for PDF */
-  .ecological-iframe {
+  .pdf-iframe {
     width: 90%;
-    max-width: 900px;
-    height: 80vh;
-    margin: 40px auto;
-    border: none;
-    display: block;
-  }
-  
-  /* Slightly smaller iframe on very large screens */
-  @media (min-width: 1400px) {
-    .ecological-iframe {
-      height: 70vh;
-    }
-  }
-  
-  /* Stack and pad more on small devices */
-  @media (max-width: 600px) {
-    .banner-header {
-      font-size: 2rem;
-    }
-  
-    .banner-subheader {
-      font-size: 1.2rem;
-    }
-  
-    .banner-description {
-      font-size: 1rem;
-    }
+    max-width: 1200px;
+    height: 100vh;
+    border: 1px solid #ccc;
   }
   
