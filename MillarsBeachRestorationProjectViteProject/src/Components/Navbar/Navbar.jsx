@@ -11,7 +11,7 @@ const Navbar = () => {
     return (
 <nav className="navbar">
     <div className="navbar-top">
-        <h1 className="navbar-logo">Millars Beach Restoration Project</h1>
+        <h1 className="navbar-logo"><a href="/">Millars Beach Restoration Project</a></h1>
         <div className="navbar-menu-icon" onClick={toggleMenu}>☰</div>
     </div>
     <ul className={`navbar-links ${isOpen ? "navbar-links-open" : ""}`}>
@@ -19,7 +19,7 @@ const Navbar = () => {
         <li><a href="#donate">Donate</a></li>
         <li><a href="#our-updates">Our Updates</a></li>
         <li><a href="#contact-us">Contact Us</a></li>
-        <li><a href="#sign-in">Sign In</a></li>
+        <li><a href="signin">Sign In</a></li>
     </ul>
 </nav>
 

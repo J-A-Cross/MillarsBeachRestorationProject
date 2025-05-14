@@ -1,83 +1,60 @@
-/* SignIn.css */
-
-.sign-in-container {
+/* Full-page background container */
+.signin-container {
+    min-height: 100vh;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
-    background-color: #f5f5f5;
-    font-family: Arial, sans-serif;
-}
-
-.sign-in-form {
-    background: #ffffff;
+    align-items: flex-start;  /* Align to the top */
+    padding-top: 15rem;        /* Push down slightly from the top */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+  }
+  
+  
+  /* Sign-in box */
+  .signin-box {
+    background-color: rgba(0, 0, 0, 0.6); /* semi-transparent dark */
     padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 100%;
+    border-radius: 1rem;
     max-width: 400px;
-}
-
-.sign-in-form h1 {
-    font-size: 1.5rem;
-    margin-bottom: 1.5rem;
-    color: #333333;
+    width: 90%;
     text-align: center;
-}
-
-.input-group {
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Heading */
+  .signin-box h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Inputs */
+  .signin-box input {
+    width: 100%;
+    padding: 0.75rem 1rem;
     margin-bottom: 1rem;
-}
-
-.input-group label {
-    display: block;
-    font-size: 0.9rem;
-    color: #555555;
-    margin-bottom: 0.5rem;
-}
-
-.input-group input {
-    width: 100%;
-    padding: 0.8rem;
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-    font-size: 1rem;
-}
-
-.input-group input:focus {
-    border-color: #007bff;
-    outline: none;
-}
-
-.sign-in-button {
-    width: 100%;
-    padding: 0.8rem;
-    background-color: #007bff;
-    color: #ffffff;
     border: none;
-    border-radius: 4px;
+    border-radius: 2rem;
+    font-size: 1rem;
+    outline: none;
+  }
+  
+  /* Button */
+  .signin-box button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 2rem;
+    background-color: #1abc9c;
+    color: white;
     font-size: 1rem;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.sign-in-button:hover {
-    background-color: #0056b3;
-}
-
-.sign-in-footer {
-    margin-top: 1rem;
-    font-size: 0.9rem;
-    color: #555555;
-    text-align: center;
-}
-
-.sign-in-footer a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-.sign-in-footer a:hover {
-    text-decoration: underline;
-}
+    transition: background 0.3s ease;
+  }
+  
+  .signin-box button:hover {
+    background-color: #159d84;
+  }
+  
