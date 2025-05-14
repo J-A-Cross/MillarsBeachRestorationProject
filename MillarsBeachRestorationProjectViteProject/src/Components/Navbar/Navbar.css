@@ -1,0 +1,99 @@
+/* Base layout */
+.navbar {
+    background-color: #000;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+}
+
+/* Font family */
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Top row (logo + icon) */
+.navbar-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+/* Logo */
+.navbar-logo {
+    font-size: clamp(1rem, 2.5vw, 1rem);
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    flex-grow: 1;
+    min-width: 0;
+    word-break: break-word;
+}
+
+.navbar-logo:hover {
+    color: #1abc9c;
+}
+
+/* Menu icon */
+.navbar-menu-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #ffffff;
+    margin-left: 1rem;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+/* Hidden by default (mobile) */
+.navbar-links {
+    display: none;
+    flex-direction: column;
+    list-style: none;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+/* Visible when open */
+.navbar-links-open {
+    display: flex;
+}
+
+/* Links styling */
+.navbar-links li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+    color: #1abc9c;
+}
+
+/* Desktop view */
+@media (min-width: 768px) {
+    .navbar-top {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar-menu-icon {
+        display: none;
+    }
+
+    .navbar-links {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1.5rem;
+        padding-top: 0;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+}
