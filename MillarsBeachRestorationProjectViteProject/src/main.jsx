@@ -7,6 +7,7 @@ import Layout from './Components/Layout/Layout.jsx';
 import Contact from './Components/Contact/Contact.jsx';
 import Ecological from './Components/Ecological/Ecologcal.jsx';
 import Posts from './Components/Posts/Posts.jsx';
+import Donate from './Components/Donate/Donate.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
           <Route path="/contact" element={<Contact />} />
           <Route path="/ecological" element={<Ecological />} />
           <Route path="/blog" element={<Posts/>}/>
+          <Route path="/donate" element={<Donate />}/>
         </Routes> 
       </Layout>
     </Router>
