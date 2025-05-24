@@ -13,12 +13,12 @@
   }
   
   .contact-box {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, .7);
     padding: 2rem;
     border-radius: 1rem;
     width: 90%;
     max-width: 400px;
-    color: white;
+    color: black;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   }
   
@@ -55,7 +55,7 @@
     border: none;
     border-radius: 2rem;
     background-color: #4CAF50;
-    color: white;
+    color: black;
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s;

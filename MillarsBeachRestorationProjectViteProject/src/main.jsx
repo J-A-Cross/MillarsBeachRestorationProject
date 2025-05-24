@@ -8,13 +8,14 @@ import Contact from './Components/Contact/Contact.jsx';
 import Ecological from './Components/Ecological/Ecologcal.jsx';
 import Posts from './Components/Posts/Posts.jsx';
 import Donate from './Components/Donate/Donate.jsx';
+import Home from './Components/Home/Home.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Router>
       <Layout>
         <Routes>
-          <Route path="/" element={<div></div>} />
+          <Route path="/" element={<Home />} />
           <Route path="/signin" element={<SignIn />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/ecological" element={<Ecological />} />
