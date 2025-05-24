@@ -12,7 +12,7 @@ const Layout = ({ children }) => {
     if (location.pathname === '/contact') return 'bg-contact';
     if (location.pathname === '/ecological') return 'bg-ecological';
     if (location.pathname === '/blog') return 'bg-blog';  
-    return 'bg-home';
+    return 'bg-signin';
   };
 
   return (
