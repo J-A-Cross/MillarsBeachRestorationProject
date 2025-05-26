@@ -6,7 +6,7 @@ export default function main() {
                 <p className="mx-100 pb-15 pt-10 text-2xl font-mono text-amber-50 text-center">Restoring the Millars Beach & connecting peninsuala through pest reduction in Whaka o Te Wera (Paterson Inlet), Rakiura (Stewart Island)</p>
             </div>
 
-        <div className="mx-15 my-10 flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white  text-lg py-2">
+        <div className="mx-15 my-10 flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white max-w-1/2 text-lg py-2">
             <div className="m-5 flex h-auto max-w-md rounded-2xl">
             </div>
             <div>
@@ -20,7 +20,7 @@ export default function main() {
         </div>
 
         <div className="flex justify-end h-auto flex-row">
-            <div className=" bg-gray-800/60 mx-15 py-2 rounded-2xl  text-white text-lg">
+            <div className="max-w-1/2 bg-gray-800/60 mx-15 py-2 rounded-2xl  text-white text-lg">
                 <div className="m-5 flex h-auto max-w-md rounded-2xl">
                 </div>
                 <div>
@@ -33,7 +33,7 @@ export default function main() {
                 </div>
             </div>
         </div>
-        <div className="mx-15 my-10 flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white  text-lg py-2">
+        <div className="mx-15 my-10 flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white max-w-1/2 text-lg py-2">
             <div>
             <div className="mx-5 flex flex-row flex-wrap">
                 <h1 className="mx-2 font-semibold text-3xl">Our Location</h1>
@@ -44,7 +44,7 @@ export default function main() {
         </div>
 
         <div className="flex justify-end h-auto flex-row">
-            <div className=" bg-gray-800/60 mx-15 py-2 rounded-2xl  text-white text-lg">
+            <div className="max-w-1/2 bg-gray-800/60 mx-15 py-2 rounded-2xl  text-white text-lg">
                 <div className="m-5 flex h-auto max-w-md rounded-2xl">
                 </div>
                 <div>
