@@ -12,8 +12,9 @@ const Layout = ({ children }) => {
     if (location.pathname === '/contact') return 'bg-contact';
     if (location.pathname === '/ecological') return 'bg-ecological';
     if (location.pathname === '/blog') return 'bg-blog';  
-    return 'bg-signin';
-  };
+    if (location.pathname === '/') return 'bg-signin';  
+    return  
+};
 
   return (
     <div className={`layout-container ${getBackgroundClass()}`}>
