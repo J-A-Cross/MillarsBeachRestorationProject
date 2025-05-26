@@ -1,29 +1,26 @@
 import React from 'react';
-import './Ecological.css';
 
 const Ecological = () => {
-  const pdfUrl = '/src/assets/1365.pdf'; // Update if needed
+  const pdfUrl = '/src/assets/1365.pdf'; 
 
   return (
-    <div className="ecological-page">
-      {/* Banner / Hero Section */}
-      <section className="ecological-banner">
-        <div className="banner-content">
-          <h1>High Value Ecological Report</h1>
-          <p>
+    <div className="w-full flex flex-col items-center text-white">
+      <div className="w-full bg-cover bg-center bg-no-repeat py-16 px-5 text-center">
+        <div className="max-w-3xl mx-auto">
+          <h1 className="text-4xl font-bold mb-4">High Value Ecological Report</h1>
+          <p className="text-base leading-relaxed max-w-xl mx-auto">
             Report summary paragraph about when it was conducted and what the document includes.
           </p>
         </div>
-      </section>
+      </div>
 
-      {/* PDF Viewer Section */}
-      <section className="pdf-section">
+      <div className="w-full flex justify-center">
         <iframe
           src={pdfUrl}
-          className="pdf-iframe"
+          className="w-[90%] max-w-[1200px] h-screen border border-gray-300"
           title="Ecological PDF"
         ></iframe>
-      </section>
+      </div>
     </div>
   );
 };
