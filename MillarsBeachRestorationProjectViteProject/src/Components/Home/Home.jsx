@@ -2,7 +2,7 @@ export default function main() {
     return(
         <div>
             <div className="flex items-center justify-center py-48 flex-col">
-                <h1 className="mx-15 pt-15 text-6xl font-bold text-amber-50">Millars Beach Restoration Project</h1>
+                <h1 className="mx-150 pt-15 text-6xl font-bold text-amber-50">Millars Beach Restoration Project</h1>
                 <p className="mx-100 pb-15 pt-10 text-2xl font-mono text-amber-50 text-center">Restoring the Millars Beach & connecting peninsuala through pest reduction in Whaka o Te Wera (Paterson Inlet), Rakiura (Stewart Island)</p>
             </div>
 
