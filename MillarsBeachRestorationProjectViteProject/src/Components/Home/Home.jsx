@@ -1,13 +1,12 @@
 export default function main() {
     return(
-        <div>
+        <div className="flex flex-col items-center">
             <div className="flex items-center justify-center py-30 flex-col">
-                <h1 className="mx-15 pt-15 text-6xl font-bold text-amber-50">Millars Beach Restoration Project</h1>
-                <p className="mx-100 pb-15 pt-10 text-2xl font-mono text-amber-50 text-center">Restoring the Millars Beach & connecting peninsuala through pest reduction in Whaka o Te Wera (Paterson Inlet), Rakiura (Stewart Island)</p>
+                <h1 className="mx-15 pt-15 text-6xl font-bold text-amber-50 text-center">Millars Beach Restoration Project</h1>
+                <p className="mx-5 pb-15 pt-10 text-2xl font-mono text-amber-50 text-center lg:w-4/5">Restoring the Millars Beach & connecting peninsuala through pest reduction in Whaka o Te Wera (Paterson Inlet), Rakiura (Stewart Island)</p>
             </div>
 
-        <div className="flex flex-row justify-around">
-            <div className="flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white max-w-2/4 mx-5 text-lg py-2">
+-            <div className="flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white mx-5 text-lg py-2 lg:w-4/5">
                 <div className="">
                     <div className="mx-5 mt-5 flex flex-row flex-wrap">
                         <h1 className="mx-2 font-semibold text-3xl">Our Story</h1>
@@ -18,7 +17,7 @@ export default function main() {
                 </div>
             </div>
 
-            <div className="flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white max-w-2/4 mx-5 text-lg py-2">
+-            <div className="flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white mx-5 text-lg py-2 lg:w-4/5">
                 <div className="">
                     <div className="mx-5 mt-5 flex flex-row flex-wrap">
                         <h1 className="mx-2 font-semibold text-3xl">Our Vision</h1>
@@ -27,11 +26,9 @@ export default function main() {
                     <p className="mx-7 py-2 pr-2">We are also part of a larger vision - to see Rakiura pest free and thriving through Predator Free Rakiura 2050.</p>
                     <p className="mx-7 py-2 pr-2">Project Purpose:  "rejuvenate indigenous flora and fauna on the Peninsula through the heavy suppression of rats, possums, feral cats, and deer, along with eradication of introduced weeds"</p>
                 </div>
-            </div>
-        </div>
+-           </div>
 
-        <div className="flex flex-row justify-around">
-            <div className="flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white max-w-2/4 mx-5 text-lg py-2">
+-            <div className="flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white mx-5 text-lg py-2 lg:w-4/5">
                 <div>
                 <div className="mx-5 flex flex-row flex-wrap">
                     <h1 className="mx-2 font-semibold text-3xl">Our Location</h1>
@@ -41,7 +38,7 @@ export default function main() {
                 </div>
             </div>
 
-            <div className="flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white max-w-2/4 mx-5 text-lg py-2">
+-            <div className="flex h-auto flex-row rounded-2xl bg-gray-800/60 text-white mx-5 text-lg py-2 lg:w-4/5">
                 <div className="">
                     <div className="mx-5 mt-5 flex flex-row flex-wrap">
                             <h1 className="mx-2 font-semibold text-3xl">Our Supporters</h1>
@@ -54,7 +51,6 @@ export default function main() {
                     </ul>
                     </div>
                 </div>
-            </div>
-        </div>
+-        </div>
     );
 };
