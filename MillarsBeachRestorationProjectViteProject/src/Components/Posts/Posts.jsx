@@ -5,11 +5,12 @@ const Posts = () => {
 
   return (
 <div>
-  <div>
+  <div className='items-center flex flex-col'>
   <h1 className="mx-15 py-15 text-4xl font-bold text-amber-50">Our Posts</h1>
-  <div className="mx-15 my-10 flex h-auto flex-row rounded-2xl bg-blue-800/80 text-white">
-    <div className="m-5 flex h-auto max-w-md rounded-2xl">
-      <img className="rounded-2xl h-auto w-full" src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=3200&quality=80" alt="Description of image" />
+
+  <div className="mx-15 my-5 flex h-auto md:flex-row rounded-2xl bg-blue-800/80 text-white lg:w-4/5 flex-col items-center">
+    <div className="m-5 flex h-full max-w-lg rounded-2xl">
+      <img className="rounded-2xl h-full w-auto" src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=3200&quality=80" alt="Description of image" />
     </div>
 
     <div>
@@ -24,7 +25,7 @@ const Posts = () => {
     </div>
   </div>
 
-  <div className="mx-15 my-10 flex h-auto flex-row rounded-2xl bg-blue-800/80 text-white">
+  <div className="mx-15 my-5 flex h-auto md:flex-row rounded-2xl bg-blue-800/80 text-white lg:w-4/5 flex-col items-center">
     <div>
       <div className="mx-5 mt-5 flex flex-row flex-wrap">
         <h1 className="mx-2 font-semibold">Conservation Project</h1>
@@ -35,15 +36,15 @@ const Posts = () => {
       </div>
       <p className="mx-7 mt-5 mb-8 pr-2">I think the nature of the first half of the semester means that there is not excessive amounts of practical activity, but that it is ok as there is a proper time and places for different learning types during study, and the flow during this course is logical and we as students can see the direction we are going (Which is not always the case with other classNamees).</p>
     </div>
-    <div className="m-5 flex h-auto max-w-md rounded-2xl">
+    <div className="m-5 flex h-full max-w-lg rounded-2xl">
       <img className="rounded-2xl h-auto w-full" src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=3200&quality=80" alt="Description of image" />
     </div>
 
 
   </div>
 
-  <div className="mx-15 my-10 flex h-auto flex-row rounded-2xl bg-blue-800/80 text-white">
-    <div className="m-5 flex h-auto max-w-md rounded-2xl">
+  <div className="mx-15 my-5 flex h-auto md:flex-row rounded-2xl bg-blue-800/80 text-white lg:w-4/5 flex-col items-center">
+    <div className="m-5 flex h-full max-w-lg rounded-2xl">
       <img className="rounded-2xl h-auto w-full" src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=3200&quality=80" alt="Description of image" />
     </div>
 
@@ -59,7 +60,7 @@ const Posts = () => {
     </div>
   </div>
 
-  <div className="mx-15 my-10 flex h-auto flex-row rounded-2xl bg-blue-800/80 text-white">
+  <div className="mx-15 my-5 flex h-auto md:flex-row rounded-2xl bg-blue-800/80 text-white lg:w-4/5 flex-col items-center">
     <div>
       <div className="mx-5 mt-5 flex flex-row flex-wrap">
         <h1 className="mx-2 font-semibold">Conservation Project</h1>
@@ -70,14 +71,14 @@ const Posts = () => {
       </div>
       <p className="mx-7 mt-5 mb-8 pr-2">I think the nature of the first half of the semester means that there is not excessive amounts of practical activity, but that it is ok as there is a proper time and places for different learning types during study, and the flow during this course is logical and we as students can see the direction we are going (Which is not always the case with other classNamees).</p>
     </div>
-    <div className="m-5 flex h-auto max-w-md rounded-2xl">
+    <div className="m-5 flex h-full max-w-lg rounded-2xl">
       <img className="rounded-2xl h-auto w-full" src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=3200&quality=80" alt="Description of image" />
     </div>
 
 
   </div>
 
-  <div className="mx-15 my-10 flex h-auto flex-row rounded-2xl bg-blue-800/80 text-white">
+  <div className="mx-15 my-5 flex h-auto sm:flex-row rounded-2xl bg-blue-800/80 text-white lg:w-4/5 flex-col">
     <div className="m-5 flex h-auto max-w-md rounded-2xl">
       <img className="rounded-2xl h-auto w-full" src="https://i0.wp.com/picjumbo.com/wp-content/uploads/beautiful-fall-nature-scenery-free-image.jpeg?w=3200&quality=80" alt="Description of image" />
     </div>
