@@ -4,7 +4,7 @@ import './Posts.css';
 const Posts = () => {
 
   return (
-<div className="bg-[url('https://upload.wikimedia.org/wikipedia/commons/c/c8/Altja_j%C3%B5gi_Lahemaal.jpg')] bg-cover bg-center bg-no-repeat bg-fixed">
+<div>
   <div>
   <h1 className="mx-15 py-15 text-4xl font-bold text-amber-50">Our Posts</h1>
   <div className="mx-15 my-10 flex h-auto flex-row rounded-2xl bg-blue-800/80 text-white">
