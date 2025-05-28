@@ -35,6 +35,8 @@ export default function main() {
                 </div>
                 <p className="mx-7 py-2 pr-2">A 100Ha native bush peninsula within Paterson Inlet, Rakiura (Stewart Island) of Aotearoa New Zealand.</p>
                     <p className="mx-7 py-2 pr-2">The area being managed also includes the historic Norwegian Whalers Base, who's owner we are partnering with to include their land in the project.</p>
+                    <p className="mx-7 py-2 pr-2">Whilst these properties are privately owned, public access is granted to the Millars Beach foreshore, the historic Whalers Base, and a 20min track which connects them. A public</p>
+                    <p className="mx-7 py-2 pr-2">jetty facilitates access by boat, and the area is widely enjoyed by locals, boaties, cruising yachts, sea kayakers, and visitors to the Island.”</p>
                 </div>
             </div>
 
