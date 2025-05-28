@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Ecological = () => {
-  const pdfUrl = '/src/assets/1365.pdf'; 
+  const pdfUrl = 'MillarsRestorationProjectNewsletterSupporters.pdf'; 
 
   return (
     <div className="w-full flex flex-col items-center text-white">
