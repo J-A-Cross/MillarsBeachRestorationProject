@@ -13,6 +13,7 @@ const Layout = ({ children }) => {
     if (location.pathname === '/ecological') return 'bg-ecological';
     if (location.pathname === '/blog') return 'bg-blog';  
     if (location.pathname === '/') return 'bg-signin';  
+    if (location.pathname === '/newsletter') return 'bg-newsletter';  
     return  
 };
 

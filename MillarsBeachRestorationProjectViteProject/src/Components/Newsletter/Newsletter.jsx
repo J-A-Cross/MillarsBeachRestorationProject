@@ -3,10 +3,9 @@ import React, { useState } from 'react';
 const Newsletter = () => {
   const pdfs = [
     { name: '2025: January-March', url: 'MillarsRestorationProjectNewsletterSupporters.pdf' },
-    { name: '2024: October-December', url: 'MillarsRestorationProjectNewsletterSupporters.pdf' },
+    { name: '2024: October-December', url: 'MillarsRestorationProjectNewsletterSupporters2.pdf' },
     { name: '2024: July-September', url: 'MillarsRestorationProjectNewsletterSupporters.pdf' },
     { name: '2024: April-June', url: 'MillarsRestorationProjectNewsletterSupporters.pdf' },
-    { name: '2024: January-March', url: 'MillarsRestorationProjectNewsletterSupporters.pdf' },
   ];
 
   const [selectedPdf, setSelectedPdf] = useState(pdfs[0].url);
@@ -17,7 +16,7 @@ const Newsletter = () => {
       <div>
         <div className='mb-6 flex flex-col items-center'>
              <h1 className="text-3xl font-semibold mb-4">Welcome to the Millar Beach Restoration Project Newsletter Viewer!</h1>
-            <div className="flex gap-4 flex-wrap mb-6">
+            <div className="flex gap-4 flex-wrap mb-6 flex-row justify-center">
             {pdfs.map((pdf, index) => (
                 <button
                 key={index}
@@ -39,7 +38,7 @@ const Newsletter = () => {
       </div>
 
       {/* Fixed Footer Newsletter Form */}
-      <footer className="fixed bottom-0 left-0 w-full bg-white border-t shadow z-50">
+      <footer className="fixed bottom-0 left-0 w-full bg-black border-t shadow z-50">
         <div className="max-w-4xl mx-auto px-4 py-4 text-center">
           <h2 className="text-xl font-bold mb-2">Subscribe to our Newsletter</h2>
           <form className="flex flex-col sm:flex-row justify-center items-center gap-2">

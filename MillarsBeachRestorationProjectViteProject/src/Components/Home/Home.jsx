@@ -53,6 +53,17 @@ export default function main() {
                     </ul>
                     </div>
                 </div>
+-            <div className="text-white">
+                <a
+  href="https://www.trap.nz/project/20127930/info"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="inline-block bg-green-700 hover:bg-green-800 text-white font-semibold py-4 px-4 rounded-2xl shadow transition duration-200"
+>
+  Click here to see a live map containing trap placement and supporting data!
+</a>                
+            </div>
 -        </div>
     );
 };
+

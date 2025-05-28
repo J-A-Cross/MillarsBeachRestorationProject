@@ -11,29 +11,29 @@ const Donate = () => {
         <div className='mx-20 flex items-center flex-col pt-10 sm:w-4/5 lg:w-3/5  '>
           <hr className='min-w-2/2'></hr>
         </div>
-        <div className='mx-20 grid grid-cols-2 gap-4 pt-10 lg:w-3/5  '>
+        <div className='mx-20 grid grid-col-1 md:grid-cols-2 gap-4 pt-10 lg:w-3/5'>
           <div className='m-6'>
           <ul className="list-disc">
-              <li>Donations can be used towards enhancing the experiance of wildlife around the beach and surrounding areas.</li>
+              <li>Placeholder text about reasons to donate, why even small ammounts can go far, and the results achieved from previous donations</li>
             </ul>
           </div>
           <div className='m-6'>
         <ul className="list-disc">
-              <li>Donations can be used towards enhancing the experiance of wildlife around the beach and surrounding areas.</li>
+              <li>Placeholder text about reasons to donate, why even small ammounts can go far, and the results achieved from previous donations</li>
             </ul>        </div>
           <div className='m-6'>
         <ul className="list-disc">
-              <li>Donations can be used towards enhancing the experiance of wildlife around the beach and surrounding areas.</li>
+              <li>Placeholder text about reasons to donate, why even small ammounts can go far, and the results achieved from previous donations</li>
             </ul>        </div>
           <div className='m-6'>
         <ul className="list-disc">
-              <li>Donations can be used towards enhancing the experiance of wildlife around the beach and surrounding areas.</li>
+              <li>Placeholder text about reasons to donate, why even small ammounts can go far, and the results achieved from previous donations  </li>
             </ul>        </div>
         </div>
 
         <div className='mx-20 flex items-center flex-col pt-10 sm:w-4/5 lg:w-3/5  '>
           <hr className='min-w-2/2'></hr>
-          <p className='my-10'>Kindly accepting donations to the following account: 06-0851-0442560-00</p>
+          <p className='my-10'>Kindly accepting donations to the following account: 02-0924-02012-40-001</p>
           <hr className='min-w-2/2'></hr>
         </div>
 

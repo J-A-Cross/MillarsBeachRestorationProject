@@ -30,6 +30,16 @@
     z-index: 1;
     color: white;
   }
+
+  .bg-newsletter {
+    background-image: url('/src/assets/newsletter.JPG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    color: white;
+  }
   
   /* Optional: size or spacing control */
   .bg-ecological::before {
